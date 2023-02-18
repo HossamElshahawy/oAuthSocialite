@@ -1,0 +1,11 @@
+composer require laravel/socialite
+
+php artisan make:controller SocialAuthController
+
+composer require laravel/jetstream  
+
+php artisan jetstream:install livewire   
+
+npm install && npm run dev   
+
+add google_id coloum in user database and model fillable
